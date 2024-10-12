@@ -1,0 +1,1057 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Sep 30 18:53:42 2024
+# Process ID: 11916
+# Current directory: D:/CHACKS/comp_free_sort-29-09-24
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15428 D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.xpr
+# Log file: D:/CHACKS/comp_free_sort-29-09-24/vivado.log
+# Journal file: D:/CHACKS/comp_free_sort-29-09-24\vivado.jou
+# Running On: DESKTOP-MII2473, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16849 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1482.637 ; gain = 354.242
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'EVT_update_unit_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'EVT_update_unit_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj EVT_update_unit_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/D_FF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_FF
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/EVT_update_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EVT_update_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sim_1/new/EVT_update_unit_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EVT_update_unit_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot EVT_update_unit_tb_behav xil_defaultlib.EVT_update_unit_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot EVT_update_unit_tb_behav xil_defaultlib.EVT_update_unit_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'data_out' [D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/EVT_update_unit.v:44]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.D_FF
+Compiling module xil_defaultlib.EVT_update_unit
+Compiling module xil_defaultlib.EVT_update_unit_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot EVT_update_unit_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "EVT_update_unit_tb_behav -key {Behavioral:sim_1:Functional:EVT_update_unit_tb} -tclbatch {EVT_update_unit_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source EVT_update_unit_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+At time 0, clk = 0, en = 0, LED_out = 00000001, EVT = 00000000, EVT_next = 0000000x
+At time 10000, clk = 1, en = 0, LED_out = 00000001, EVT = 00000000, EVT_next = 0000000x
+At time 20000, clk = 0, en = 0, LED_out = 00000001, EVT = 11001100, EVT_next = 0000000x
+At time 30000, clk = 1, en = 0, LED_out = 00000001, EVT = 11001100, EVT_next = 0000000x
+At time 40000, clk = 0, en = 1, LED_out = 00000001, EVT = 11001100, EVT_next = 0000000x
+At time 50000, clk = 1, en = 1, LED_out = 00000001, EVT = 11001100, EVT_next = 00000000
+At time 60000, clk = 0, en = 1, LED_out = 00000010, EVT = 11110000, EVT_next = 00000000
+At time 70000, clk = 1, en = 1, LED_out = 00000010, EVT = 11110000, EVT_next = 00000000
+At time 80000, clk = 0, en = 1, LED_out = 00000100, EVT = 01010101, EVT_next = 00000000
+At time 90000, clk = 1, en = 1, LED_out = 00000100, EVT = 01010101, EVT_next = 00000001
+At time 100000, clk = 0, en = 1, LED_out = 00001000, EVT = 11111111, EVT_next = 00000001
+At time 110000, clk = 1, en = 1, LED_out = 00001000, EVT = 11111111, EVT_next = 00000001
+At time 120000, clk = 0, en = 1, LED_out = 00010000, EVT = 10101010, EVT_next = 00000001
+At time 130000, clk = 1, en = 1, LED_out = 00010000, EVT = 10101010, EVT_next = 00000000
+At time 140000, clk = 0, en = 1, LED_out = 00100000, EVT = 00100000, EVT_next = 00000000
+At time 150000, clk = 1, en = 1, LED_out = 00100000, EVT = 00100000, EVT_next = 00000000
+$finish called at time : 160 ns : File "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sim_1/new/EVT_update_unit_tb.v" Line 94
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'EVT_update_unit_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1554.324 ; gain = 18.090
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sim_1\new\EVT_update_unit_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\D_FF.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\EVT_update_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sim_1\new\EVT_update_unit_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\D_FF.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\EVT_update_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sim_1\new\EVT_update_unit_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\D_FF.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\EVT_update_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sim_1\new\EVT_update_unit_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\D_FF.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\EVT_update_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sim_1\new\EVT_update_unit_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\D_FF.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\EVT_update_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sim_1\new\EVT_update_unit_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\D_FF.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\EVT_update_unit.v:]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'EVT_update_unit_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'EVT_update_unit_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj EVT_update_unit_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/D_FF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_FF
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/EVT_update_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EVT_update_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sim_1/new/EVT_update_unit_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EVT_update_unit_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot EVT_update_unit_tb_behav xil_defaultlib.EVT_update_unit_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot EVT_update_unit_tb_behav xil_defaultlib.EVT_update_unit_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'EVT_next1' is not permitted [D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/EVT_update_unit.v:44]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sim_1\new\EVT_update_unit_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\D_FF.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\EVT_update_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sim_1\new\EVT_update_unit_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\D_FF.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\EVT_update_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sim_1\new\EVT_update_unit_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\D_FF.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\EVT_update_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sim_1\new\EVT_update_unit_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\D_FF.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\EVT_update_unit.v:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'EVT_update_unit_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'EVT_update_unit_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj EVT_update_unit_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/D_FF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_FF
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/EVT_update_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EVT_update_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sim_1/new/EVT_update_unit_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EVT_update_unit_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot EVT_update_unit_tb_behav xil_defaultlib.EVT_update_unit_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot EVT_update_unit_tb_behav xil_defaultlib.EVT_update_unit_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.D_FF
+Compiling module xil_defaultlib.EVT_update_unit
+Compiling module xil_defaultlib.EVT_update_unit_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot EVT_update_unit_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "EVT_update_unit_tb_behav -key {Behavioral:sim_1:Functional:EVT_update_unit_tb} -tclbatch {EVT_update_unit_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source EVT_update_unit_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+At time 0, clk = 0, en = 0, LED_out = 00000001, EVT = 00000000, EVT_next = xxxxxxxx
+At time 10000, clk = 1, en = 0, LED_out = 00000001, EVT = 00000000, EVT_next = xxxxxxxx
+At time 20000, clk = 0, en = 0, LED_out = 00000001, EVT = 11001100, EVT_next = xxxxxxxx
+At time 30000, clk = 1, en = 0, LED_out = 00000001, EVT = 11001100, EVT_next = xxxxxxxx
+At time 40000, clk = 0, en = 1, LED_out = 00000001, EVT = 11001100, EVT_next = xxxxxxxx
+At time 50000, clk = 1, en = 1, LED_out = 00000001, EVT = 11001100, EVT_next = 11001100
+At time 60000, clk = 0, en = 1, LED_out = 00000010, EVT = 11110000, EVT_next = 11001100
+At time 70000, clk = 1, en = 1, LED_out = 00000010, EVT = 11110000, EVT_next = 11110000
+At time 80000, clk = 0, en = 1, LED_out = 00000100, EVT = 01010101, EVT_next = 11110000
+At time 90000, clk = 1, en = 1, LED_out = 00000100, EVT = 01010101, EVT_next = 01010001
+At time 100000, clk = 0, en = 1, LED_out = 00001000, EVT = 11111111, EVT_next = 01010001
+At time 110000, clk = 1, en = 1, LED_out = 00001000, EVT = 11111111, EVT_next = 11110111
+At time 120000, clk = 0, en = 1, LED_out = 00010000, EVT = 10101010, EVT_next = 11110111
+At time 130000, clk = 1, en = 1, LED_out = 00010000, EVT = 10101010, EVT_next = 10101010
+At time 140000, clk = 0, en = 1, LED_out = 00100000, EVT = 00100000, EVT_next = 10101010
+At time 150000, clk = 1, en = 1, LED_out = 00100000, EVT = 00100000, EVT_next = 00000000
+$finish called at time : 160 ns : File "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sim_1/new/EVT_update_unit_tb.v" Line 94
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'EVT_update_unit_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+set_property top sorting_engine [current_fileset]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sim_1\new\EVT_update_unit_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\D_FF.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\EVT_update_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sim_1\new\EVT_update_unit_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\D_FF.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\EVT_update_unit.v:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sim_1\new\EVT_update_unit_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\D_FF.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\EVT_update_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sim_1\new\EVT_update_unit_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\D_FF.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\EVT_update_unit.v:]
+set_property is_enabled true [get_files  D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sim_1/new/tb_sorting_engine.v]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sim_1\new\EVT_update_unit_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\D_FF.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\EVT_update_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sim_1\new\EVT_update_unit_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\D_FF.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\EVT_update_unit.v:]
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sim_1\new\EVT_update_unit_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\D_FF.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\EVT_update_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sim_1\new\EVT_update_unit_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\D_FF.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\EVT_update_unit.v:]
+set_property top tb_sorting_engine [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sim_1\new\EVT_update_unit_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\D_FF.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\EVT_update_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sim_1\new\EVT_update_unit_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\D_FF.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\EVT_update_unit.v:]
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sim_1\new\EVT_update_unit_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\D_FF.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\EVT_update_unit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sim_1\new\EVT_update_unit_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\D_FF.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\EVT_update_unit.v:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_sorting_engine'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim/simulate.log"
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_sorting_engine'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_sorting_engine' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_sorting_engine_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/Block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Block
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/Cell.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Cell
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/D_FF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_FF
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/EVT_update_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EVT_update_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/LED.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LED
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/LED_int.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LED_int
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/decoder_3to8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_3to8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/encoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/sorting_engine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sorting_engine
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sim_1/new/tb_sorting_engine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_sorting_engine
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_sorting_engine_behav xil_defaultlib.tb_sorting_engine xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_sorting_engine_behav xil_defaultlib.tb_sorting_engine xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Cell
+Compiling module xil_defaultlib.Block
+Compiling module xil_defaultlib.LED_int
+Compiling module xil_defaultlib.encoder
+Compiling module xil_defaultlib.LED
+Compiling module xil_defaultlib.decoder_3to8
+Compiling module xil_defaultlib.D_FF
+Compiling module xil_defaultlib.EVT_update_unit
+Compiling module xil_defaultlib.sorting_engine
+Compiling module xil_defaultlib.tb_sorting_engine
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_sorting_engine_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_sorting_engine_behav -key {Behavioral:sim_1:Functional:tb_sorting_engine} -tclbatch {tb_sorting_engine.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_sorting_engine.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time=0, clk=0, rst=1, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=5, clk=1, rst=1, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=10, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=15, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=20, clk=0, rst=0, start=1, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=25, clk=1, rst=0, start=1, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=30, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=35, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=40, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=45, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=50, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=55, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=60, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=65, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=70, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=75, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=80, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=85, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=90, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=95, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=100, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=105, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=110, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=115, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=120, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=125, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=130, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=135, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=140, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=145, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=150, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=155, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=160, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=165, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=170, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=175, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=180, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=185, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=190, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=195, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=200, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=205, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=210, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=215, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=220, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=225, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=230, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=235, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=240, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=245, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=250, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=255, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=260, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=265, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=270, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=275, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=280, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=285, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=290, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=295, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=300, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=305, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=310, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=315, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=320, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=325, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=330, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=335, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=340, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=345, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=350, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=355, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=360, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=365, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=370, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=375, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=380, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=385, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=390, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=395, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=400, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=405, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=410, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=415, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=420, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=425, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=430, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=435, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=440, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=445, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=450, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=455, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=460, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=465, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=470, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=475, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=480, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=485, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=490, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=495, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=500, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=505, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=510, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=515, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=520, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=525, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=530, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=535, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=540, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=545, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=550, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=555, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=560, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=565, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=570, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=575, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=580, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=585, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=590, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=595, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=600, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=605, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=610, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=615, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=620, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=625, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=630, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=635, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=640, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=645, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=650, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=655, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=660, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=665, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=670, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=675, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=680, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=685, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=690, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=695, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=700, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=705, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=710, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=715, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=720, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=725, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=730, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=735, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=740, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=745, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=750, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=755, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=760, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=765, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=770, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=775, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=780, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=785, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=790, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=795, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=800, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=805, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=810, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=815, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=820, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=825, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=830, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=835, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=840, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=845, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=850, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=855, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=860, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=865, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=870, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=875, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=880, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=885, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=890, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=895, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=900, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=905, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=910, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=915, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=920, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=925, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=930, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=935, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=940, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=945, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=950, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=955, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=960, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=965, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=970, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=975, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=980, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=985, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=990, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=995, clk=1, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+Time=1000, clk=0, rst=0, start=0, Data_in1=00000001, Data_in2=00000010, Data_in3=00000100, Data_in4=00001000, Data_in5=00010000, Data_in6=00100000, Data_in7=01000000, Data_in8=10000000, EVT=zzzzzzzz, EVT_updated=zzzzzzzz, next_in=zzzzzzzz, next_out=zzzzzzzz, en=zzzzzzzz, LED_in=zzzzzzzz, LED_out=zzz, LED_en=z, EVT_en=z, LED_addr=zzz, ready=0, done_tick=0, state_reg=zz, state_next=zz, EOO=z
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_sorting_engine_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1578.324 ; gain = 3.895
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sim_1\new\tb_sorting_engine.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\sorting_engine.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_sorting_engine'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_sorting_engine' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_sorting_engine_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/Block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Block
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/Cell.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Cell
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/D_FF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_FF
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/EVT_update_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EVT_update_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/LED.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LED
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/LED_int.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LED_int
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/decoder_3to8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_3to8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/encoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/sorting_engine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sorting_engine
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sim_1/new/tb_sorting_engine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_sorting_engine
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_sorting_engine_behav xil_defaultlib.tb_sorting_engine xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_sorting_engine_behav xil_defaultlib.tb_sorting_engine xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Cell
+Compiling module xil_defaultlib.Block
+Compiling module xil_defaultlib.LED_int
+Compiling module xil_defaultlib.encoder
+Compiling module xil_defaultlib.LED
+Compiling module xil_defaultlib.decoder_3to8
+Compiling module xil_defaultlib.D_FF
+Compiling module xil_defaultlib.EVT_update_unit
+Compiling module xil_defaultlib.sorting_engine
+Compiling module xil_defaultlib.tb_sorting_engine
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_sorting_engine_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_sorting_engine_behav -key {Behavioral:sim_1:Functional:tb_sorting_engine} -tclbatch {tb_sorting_engine.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_sorting_engine.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_sorting_engine_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2651.129 ; gain = 0.000
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sim_1\new\tb_sorting_engine.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.srcs\sources_1\new\sorting_engine.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_sorting_engine'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_sorting_engine' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_sorting_engine_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/Block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Block
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/Cell.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Cell
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/D_FF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_FF
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/EVT_update_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EVT_update_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/LED.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LED
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/LED_int.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LED_int
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/decoder_3to8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_3to8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/encoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/sorting_engine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sorting_engine
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sim_1/new/tb_sorting_engine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_sorting_engine
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_sorting_engine_behav xil_defaultlib.tb_sorting_engine xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_sorting_engine_behav xil_defaultlib.tb_sorting_engine xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Cell
+Compiling module xil_defaultlib.Block
+Compiling module xil_defaultlib.LED_int
+Compiling module xil_defaultlib.encoder
+Compiling module xil_defaultlib.LED
+Compiling module xil_defaultlib.decoder_3to8
+Compiling module xil_defaultlib.D_FF
+Compiling module xil_defaultlib.EVT_update_unit
+Compiling module xil_defaultlib.sorting_engine
+Compiling module xil_defaultlib.tb_sorting_engine
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_sorting_engine_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_sorting_engine_behav -key {Behavioral:sim_1:Functional:tb_sorting_engine} -tclbatch {tb_sorting_engine.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_sorting_engine.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_sorting_engine_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 2654.348 ; gain = 0.000
+set_property is_enabled false [get_files  D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sim_1/new/tb_sorting_engine.v]
+update_compile_order -fileset sim_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_sorting_engine'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_sorting_engine' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_sorting_engine_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_sorting_engine_behav xil_defaultlib.tb_sorting_engine xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_sorting_engine_behav xil_defaultlib.tb_sorting_engine xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_sorting_engine_behav -key {Behavioral:sim_1:Functional:tb_sorting_engine} -tclbatch {tb_sorting_engine.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_sorting_engine.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_sorting_engine_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 2656.469 ; gain = 0.000
+set_property source_mgmt_mode DisplayOnly [current_project]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_sorting_engine'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_sorting_engine' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_sorting_engine_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_sorting_engine_behav xil_defaultlib.tb_sorting_engine xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_sorting_engine_behav xil_defaultlib.tb_sorting_engine xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_sorting_engine_behav -key {Behavioral:sim_1:Functional:tb_sorting_engine} -tclbatch {tb_sorting_engine.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_sorting_engine.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_sorting_engine_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_sorting_engine'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_sorting_engine' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_sorting_engine_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_sorting_engine_behav xil_defaultlib.tb_sorting_engine xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_sorting_engine_behav xil_defaultlib.tb_sorting_engine xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_sorting_engine_behav -key {Behavioral:sim_1:Functional:tb_sorting_engine} -tclbatch {tb_sorting_engine.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_sorting_engine.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_sorting_engine_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_sorting_engine'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_sorting_engine' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_sorting_engine_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_sorting_engine_behav xil_defaultlib.tb_sorting_engine xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_sorting_engine_behav xil_defaultlib.tb_sorting_engine xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_sorting_engine_behav -key {Behavioral:sim_1:Functional:tb_sorting_engine} -tclbatch {tb_sorting_engine.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_sorting_engine.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_sorting_engine_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Sep 30 19:09:56 2024...

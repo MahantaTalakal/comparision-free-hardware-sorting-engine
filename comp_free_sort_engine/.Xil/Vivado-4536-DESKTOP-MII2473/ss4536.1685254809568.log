@@ -1,0 +1,17 @@
+srcscan starts
+INFO: analyzing module Block (VERI-9002)
+INFO: analyzing module Cell (VERI-9002)
+INFO: analyzing module D_FF (VERI-9002)
+INFO: analyzing module EVT_update_unit (VERI-9002)
+D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/EVT_update_unit.v(44): INFO: undeclared symbol 'EVT_next_reg1', assumed default net type 'wire' (VERI-2561)
+INFO: analyzing module LED (VERI-9002)
+INFO: analyzing module LED_int (VERI-9002)
+INFO: analyzing module decoder_3to8 (VERI-9002)
+INFO: analyzing module encoder (VERI-9002)
+INFO: analyzing module sorting_engine (VERI-9002)
+Listing tops:
+VeriTop library:xil_defaultlib mod:sorting_engine
+END of tops
+D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/sorting_engine.v(23): INFO: compiling module 'sorting_engine_default' (VERI-1018)
+CANT FIND PRIMARY: .xil_defaultlib.Cell
+srcscan exits with return value 0

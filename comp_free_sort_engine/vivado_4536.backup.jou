@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Sep 29 12:34:34 2024
+# Process ID: 4536
+# Current directory: D:/CHACKS/comp_free_sort-29-09-24
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7992 D:\CHACKS\comp_free_sort-29-09-24\comp_free_sort.xpr
+# Log file: D:/CHACKS/comp_free_sort-29-09-24/vivado.log
+# Journal file: D:/CHACKS/comp_free_sort-29-09-24\vivado.jou
+# Running On: DESKTOP-MII2473, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16849 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+synth_design -top sorting_engine -part xc7a35tcpg236-1 -lint 
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+synth_design -top sorting_engine -part xc7a35tcpg236-1 -lint 
+refresh_design

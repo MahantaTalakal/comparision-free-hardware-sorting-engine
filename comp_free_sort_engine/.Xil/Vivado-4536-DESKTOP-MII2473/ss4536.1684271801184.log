@@ -1,0 +1,29 @@
+srcscan starts
+INFO: analyzing module Block (VERI-9002)
+INFO: analyzing module Cell (VERI-9002)
+INFO: analyzing module D_FF (VERI-9002)
+INFO: analyzing module EVT_update_unit (VERI-9002)
+D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/EVT_update_unit.v(44): INFO: undeclared symbol 'EVT_next_reg1', assumed default net type 'wire' (VERI-2561)
+INFO: analyzing module LED (VERI-9002)
+INFO: analyzing module LED_int (VERI-9002)
+INFO: analyzing module LED_tb (VERI-9002)
+INFO: analyzing module decoder_3to8 (VERI-9002)
+INFO: analyzing module encoder (VERI-9002)
+INFO: analyzing module sorting_engine (VERI-9002)
+INFO: analyzing module tb_sorting_engine (VERI-9002)
+D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sim_1/new/tb_sorting_engine.v(79): WARNING: missing or empty argument against format specification for 'monitor' (VERI-1376)
+Listing tops:
+VeriTop library:xil_defaultlib mod:LED_tb
+VeriTop library:xil_defaultlib mod:tb_sorting_engine
+END of tops
+D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sim_1/new/LED_tb.v(23): INFO: compiling module 'LED_tb_default' (VERI-1018)
+D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sim_1/new/tb_sorting_engine.v(3): INFO: compiling module 'tb_sorting_engine_default' (VERI-1018)
+D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sim_1/new/LED_tb.v(35): ERROR: cannot find port 'LED_Int' on this module (VERI-1010)
+D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/LED.v(23): INFO: 'LED' is declared here (VERI-9035)
+D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sim_1/new/LED_tb.v(34): ERROR: cannot find port 'previous' on this module (VERI-1010)
+D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/LED.v(23): INFO: 'LED' is declared here (VERI-9035)
+D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sim_1/new/LED_tb.v(33): ERROR: cannot find port 'Data' on this module (VERI-1010)
+D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/LED.v(23): INFO: 'LED' is declared here (VERI-9035)
+D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sim_1/new/LED_tb.v(32): WARNING: port 'Next' is not connected on this instance (VERI-2435)
+CANT FIND PRIMARY: .xil_defaultlib.Cell
+srcscan exits with return value 0

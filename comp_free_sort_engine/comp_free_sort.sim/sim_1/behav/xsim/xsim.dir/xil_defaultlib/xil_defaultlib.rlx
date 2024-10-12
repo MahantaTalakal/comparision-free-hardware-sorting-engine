@@ -1,0 +1,19 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sim_1/new/EVT_update_unit_tb.v,1727702127,verilog,,D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sim_1/new/LED_tb.v,,EVT_update_unit_tb,,,,,,,,
+D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sim_1/new/LED_tb.v,1727701297,verilog,,D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sim_1/new/tb_Block.v,,LED_tb,,,,,,,,
+D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sim_1/new/tb_Block.v,1727701083,verilog,,D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sim_1/new/tb_sorting_engine.v,,tb_Block,,,,,,,,
+D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sim_1/new/tb_sorting_engine.v,1727711078,verilog,,,,tb_sorting_engine,,,,,,,,
+D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/Block.v,1727601469,verilog,,D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/Cell.v,,Block,,,,,,,,
+D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/Cell.v,1727595477,verilog,,D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/D_FF.v,,Cell,,,,,,,,
+D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/D_FF.v,1727702964,verilog,,D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/EVT_update_unit.v,,D_FF,,,,,,,,
+D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/EVT_update_unit.v,1727709064,verilog,,D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/LED.v,,EVT_update_unit,,,,,,,,
+D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/LED.v,1727599107,verilog,,D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/LED_int.v,,LED,,,,,,,,
+D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/LED_int.v,1727593864,verilog,,D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/decoder_3to8.v,,LED_int,,,,,,,,
+D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/decoder_3to8.v,1727516465,verilog,,D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/encoder.v,,decoder_3to8,,,,,,,,
+D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/encoder.v,1727593938,verilog,,D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/sorting_engine.v,,encoder,,,,,,,,
+D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sources_1/new/sorting_engine.v,1728060255,verilog,,D:/CHACKS/comp_free_sort-29-09-24/comp_free_sort.srcs/sim_1/new/EVT_update_unit_tb.v,,sorting_engine,,,,,,,,
+D:/CHACKS/comp_free_sort/comp_free_sort.srcs/sim_1/new/Block_tb.v,1727508691,verilog,,,,Block_tb,,,,,,,,
